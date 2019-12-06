@@ -1,0 +1,49 @@
+.parallelogram {
+	transform: skew(20deg);
+  margin: 200px auto;
+  width: 40%;
+  border: 3px solid #ffe6e6;
+  padding: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.parallelogram1 {
+  transform: skew(20deg);
+  margin: auto;
+  width: 40%;
+  border: 3px solid #ffe6e6;
+  padding: 10px;
+  font-size: 70px;
+  text-align: center;
+}
+
+.oval {
+  height: 70px;
+  width: 350px;
+  border: 3px solid #ffe6e6;
+  border-radius: 10%;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.ovalSmall {
+  height: 100px;
+  width: 300px;
+  border: 3px solid #ffe6e6;
+  border-radius: 10%;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.ovalLarge {
+  height: 180px;
+  width: 350px;
+  border: 3px solid #ffe6e6;
+  border-radius: 10%;
+  font-size: 20px;
+  margin: auto;
+  text-align: center;
+}

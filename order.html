@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel ="stylesheet" type="text/css" href="css/responsive.css">
+  <link rel ="stylesheet" type="text/css" href="css/shape.css">
+  <link rel ="stylesheet" type="text/css" href="css/nav.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  .mySlides {display:none;}
+
+  /* Large rounded green border */
+  hr.new5 {
+    border: 10px solid white;
+    border-radius: 5px;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  </style>
+
+
+
+
+  <title>Choc O Lat | Order</title>
+
+
+
+  <style>
+  img1 {
+    width: 100%;
+    height: 50;
+  }
+  </style>
+
+
+
+</head>
+<body>
+
+<div class="header">
+
+<div class="navigation">
+  <div class="mainNav" id="myMainNav">
+  <a href="#" class="icon" onclick="navFunction()"><i class="fa fa-bars"></i></a>
+  <a href="index.html">Home</a>
+  <a href="special.html">Special</a>
+  <a href="order.html">Order</a>
+  <a href="account.html">Account</a>
+  <a href="review.html">Review</a>
+</div>
+</div>
+</div>
+
+<br><br><br><br><br><br>
+
+<!-- Row 1 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="row">
+  <div class="col-12 title">
+    <!--<div class="parallelogram">
+      Choc o Lat
+    </div>-->
+
+    <img src="assets/imgTitle.png" width ="100%" alt="Choc O Lat Title">
+    <h1>Order<h1>
+  </div>
+</div>
+
+<hr class="new5">
+
+<br><br><br><br><br><br>
+<!--End of Row-->
+
+
+
+<!-- Row 4 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<div class="col-4">
+<div class="w3-content w3-display-container">
+
+  <img class="mySlides1" src="assets/chocCups.jpg" width="600" height="500">
+  <img class="mySlides1" src="assets/chocCups2.jpg" width="600" height="500">
+  <img class="mySlides1" src="assets/chocCups3.jpg" width="600" height="500">
+  <img class="mySlides1" src="assets/chocDarkcake.jpg" width="600" height="500">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs1(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs1(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex1 = 1;
+showDivs1(slideIndex1);
+
+function plusDivs1(n) {
+  showDivs1(slideIndex1 += n);
+}
+
+function showDivs1(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides1");
+  if (n > x.length) {slideIndex1 = 1}
+  if (n < 1) {slideIndex1 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex1-1].style.display = "block";
+}
+</script>
+</div>
+</div>
+
+<div class="col-4">
+<div class="w3-content w3-display-container">
+  <img class="mySlides3" src="assets/chocCake.jpg" width="600" height="500">
+  <img class="mySlides3" src="assets/chocCake2.jpg" width="600" height="500">
+  <img class="mySlides3" src="assets/chocCakebig.jpg" width="600" height="500">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex3 = 1;
+showDivs(slideIndex3);
+
+function plusDivs(n) {
+  showDivs(slideIndex3 += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides3");
+  if (n > x.length) {slideIndex3 = 1}
+  if (n < 1) {slideIndex3 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex3-1].style.display = "block";
+}
+</script>
+</div>
+</div>
+
+
+<div class="col-4">
+<div class="w3-content w3-display-container">
+  <img class="mySlides2" src="assets/chocBiscuit.jpg" width="600" height="500">
+  <img class="mySlides2" src="assets/chocBiscuit.jpg" width="600" height="500">
+  <img class="mySlides2" src="assets/chocChocolate.jpg" width="600" height="500">
+  <img class="mySlides2" src="assets/chocLover.jpg" width="600" height="500">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs2(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex2 = 1;
+showDivs2(slideIndex2);
+
+function plusDivs2(n) {
+  showDivs2(slideIndex2 += n);
+}
+
+function showDivs2(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides2");
+  if (n > x.length) {slideIndex2 = 1}
+  if (n < 1) {slideIndex2 = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex2-1].style.display = "block";
+}
+</script>
+</div>
+</div>
+
+
+
+<br><br><br><br><br><br>
+<!--End of Row-->
+
+
+
+<!-- Row 3 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+<br><br><br><br><br><br>
+
+<div class="col-4">
+<button><div class="circle34">
+
+<center><br>A<br>
+<br>D<br>
+<br>D<br></center>
+
+</div></button>
+</div>
+
+
+
+<div class="col-4">
+<button><div class="circle34">
+
+<center><br>A<br>
+<br>D<br>
+<br>D<br></center>
+
+</div></button>
+</div>
+
+
+<div class="col-4">
+<button><div class="circle34">
+
+<center><br>A<br>
+<br>D<br>
+<br>D<br></center>
+
+</div></button>
+</div>
+
+
+
+
+
+<br><br><br><br><br><br>
+
+</div>
+<!--End of Row-->
+
+
+
+<!-- Row 10 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<hr class="new5">
+
+<div class="col-4">
+<center><div class="rectangle"><br>Discount code:
+</div></center>
+</div>
+
+
+<div class="col-4">
+<button><div class="circle56"><center><br>Apply discount code
+</center></div></button>
+</div>
+
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<div class="col-4">
+<div class="circle57">
+<center><br><img src="assets/chocRabbit.jpg" width ="85%" alt="Choc O Lat"></center>
+
+</div>
+</div>
+
+<div class="col-3 details">
+  <br><br>
+  <div class="ovalSmall"><br>Your order is on progress</div>
+  <br><br>
+  <div class="ovalSmall"><br>Your order is on progress</div>
+  <br><br>
+  <div class="ovalSmall"><br>Your order is on progress</div>
+</div>
+
+<div class="col-4">
+<div class="circle58">
+<center><br><img src="assets/chocRasp.jpg" width ="85%" alt="Choc O Lat"></center>
+
+</div>
+</div>
+
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+<br><br><br><br><br><br>
+
+<!--End of Row-->
+
+
+
+<!-- Row 5 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<br><br>
+<!--End of Row------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+
+<!-- Row 6 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+<br><br>
+<!--End of Row------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+<!-- Row 7 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="row">
+
+
+  <br><br><br><br><br><br>
+<!--End of Row------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+<!-- Row 8 ----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="row border">
+      <div class = "col-0">
+        <img class="mySlides1" src="assets/choc16.jpg" width="200" height="200">
+      </div>
+      <div class = "col-0">
+        <img class="mySlides1" src="assets/choc17.jpg" width="200" height="200">
+      </div>
+      <div class = "col-0">
+        <img class="mySlides1" src="assets/choc18.jpg" width="200" height="200">
+      </div>
+      <div class = "col-0">
+        <img class="mySlides1" src="assets/choc19.jpg" width="200" height="200">
+      </div>
+      <div class = "col-0">
+        <img class="mySlides1" src="assets/choc20.jpg" width="200" height="200">
+      </div>
+</div>
+
+<br><br><br><br><br><br>
+
+
+<div class="footer">
+<div class="col-9">
+  <div class="col-6">
+
+  <a href="https://www.facebook.com/"><img class="mySlides1" src="assets/choc21.jpg" width="300px" height="200px"></a>
+</div>
+<div class="col-6">
+<a href="https://www.instagram.com/"><img class="mySlides1" src="assets/choc22.jpg"  width="300px" height="200px"></a>
+</div>
+<div class="col-6">
+  <a href="https://twitter.com/twitter"><img class="mySlides1" src="assets/choc23.jpg"  width="300px" height="200px"></a>
+</div>
+<div class="col-6">
+  <a href="https://www.snapchat.com/"><img class="mySlides1" src="assets/choc24.jpg"  width="300px" height="200px"></a>
+</div>
+</div>
+<div class="col-3 details">
+  <br><br>
+  <div class="ovalSmall"><br>Email: info@chocolat.com</div>
+  <br><br>
+  <div class="ovalSmall"><br>Phone: 07393792837</div>
+  <br><br>
+  <div class="ovalSmall"><br>Address: Manchester M21 76W</div>
+</div>
+</div>
+<!--End of Row------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+
+<!--JavaScript Links-->
+<script src = "js/nav.js"></script>
+</body>
+</html>
